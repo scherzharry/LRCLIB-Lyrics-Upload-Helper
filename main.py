@@ -35,7 +35,7 @@ class SpotifyUploader(TkinterDnD.Tk):
     def __init__(self):
         super().__init__()
         self.title("LRCLIB Lyrics Upload Helper")
-        self.geometry("600x600")
+        self.geometry("600x800")
         self.configure(bg="#121212")
         self.resizable(False, False)
 
@@ -98,7 +98,7 @@ class SpotifyUploader(TkinterDnD.Tk):
         # Drag & Drop / Click Field
         self.drop = tk.Label(
             main,
-            text="🎵 Drag & Drop LRC here\nor click to browse",
+            text="Drag & Drop LRC here\nor click to browse",
             bg="#1e1e1e",
             fg="#1DB954",
             font=("Segoe UI", 12),
